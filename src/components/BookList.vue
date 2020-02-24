@@ -30,7 +30,7 @@ export default {
       appendBook(bookTitle ,bookAuthor){
           this.books.push({ title: bookTitle, author: bookAuthor })}
   },
-  components:{BookItem}
+  components:{BookItem, BookForm}
 };
 </script>
 

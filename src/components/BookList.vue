@@ -2,13 +2,13 @@
   <div>  
     <H1> {{title}} </H1>
     <ul>
-       <book-list v-for="book in books" :book=book></book-list>
+       <book-list v-for="book in books" :book='book'></book-list>
     </ul>
   </div>
 </template>
 
 <script>
-import BookItem from './components/BookItem';
+import BookItem from './BookItem';
 
 export default {
   name: 'BookList',

@@ -1,9 +1,9 @@
 <template>
   <div>  
     <H1> {{title}} </H1>
-    <li>
-        <ul v-for="book in books"> {{book.title}}</ul>
-    </li>
+    <ul>
+        <li v-for="book in books"> {{book.title}}: {{book.author}}</li>
+    </ul>
   </div>
 </template>
 
@@ -28,12 +28,12 @@ export default {
 h1, h2 {
     font-weight: normal;
 }
-li
+ul
 {list-style-type: none;
 padding: 0;
 }
 
-ul{
+li{
     display: block;
     margin: 0 10px;
 }

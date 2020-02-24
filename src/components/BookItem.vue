@@ -7,7 +7,7 @@
 export default {
     name: BookItem,
     props:[
-        book: String,
+        'book'
     ]
    
 }
